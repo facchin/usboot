@@ -40,6 +40,8 @@
     "gsub",
     "modifyvm",
     "ostype",
+    "OVMF",
+    "pflash",
     "showvminfo",
     "startvm",
     "unregistervm",
