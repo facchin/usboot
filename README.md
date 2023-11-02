@@ -1,4 +1,13 @@
 ----------------------------------------------------
+### Formatar pendrive e instalar grub
+``` sh
+$ git clone https://github.com/facchin/usboot.git facchin/usboot
+$ cd facchin/usboot
+$ sudo chmod +x usboot.sh
+$ sudo ./usboot.sh
+```
+
+----------------------------------------------------
 ### Testar boot do pendrive
 
 Teste com VirtualBox:
