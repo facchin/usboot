@@ -1,0 +1,28 @@
+# Define este arquivo como a raiz do projeto
+root = true
+
+# Configurações padrão para todos os tipos de arquivo
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 4
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Configurações específicas para arquivos Markdown
+[*.md]
+indent_style = space
+indent_size = 4
+max_line_length = 120
+
+# Configurações específicas para arquivos Python e arquivos de configuração
+[*.{py,cfg}]
+indent_style = space
+indent_size = 4
+max_line_length = 100
+
+# Configurações específicas para arquivos Shell script
+[*.{sh,bash}]
+indent_style = space
+indent_size = 2

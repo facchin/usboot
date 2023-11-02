@@ -1,0 +1,7 @@
+// Atalho rapidamente entre terminal e editor ativo
+{
+  "key": "ctrl+j",
+  "command": "workbench.action.focusActiveEditorGroup",
+  "when": "!terminalFocus",
+  "comment": "Atalho para focar na área de edição ativa, excluindo o terminal."
+}

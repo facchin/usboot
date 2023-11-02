@@ -1,0 +1,32 @@
+{
+  // Exclui arquivos e pastas específicos da árvore de arquivos do VS Code.
+  "files.exclude": {
+    "**/.git": true,
+    "**/.vscode": true,
+    "**/.editorconfig": true,
+    "**/.gitattributes": true,
+    "**/.gitignore": true
+  },
+  // Define o comprimento máximo permitido para assuntos de commits no Git.
+  "git.inputValidationSubjectLength": 77,
+  // Habilita o autofetch no Git para buscar automaticamente as atualizações do repositório.
+  "git.autofetch": true,
+  // Mostra espaços em branco na renderização do editor.
+  "editor.renderWhitespace": "all",
+  // Exclui determinados diretórios da observação de arquivos.
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true
+  },
+  // Associa extensões de arquivo a linguagens específicas.
+  "files.associations": {
+    ".env.example": "dotenv",
+    "Dockerfile-*": "dockerfile",
+    "hosts*": "ini",
+    ".gitignore*": "ini"
+  },
+  // Desativa o minimapa no editor.
+  "editor.minimap.enabled": false,
+  // Ignora o limite de avisos no Git.
+  "git.ignoreLimitWarning": true
+}

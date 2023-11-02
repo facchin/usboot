@@ -1,0 +1,54 @@
+// Configurações do CSpell
+{
+  // Versão do arquivo de configuração. Sempre 0.2
+  "version": "0.2",
+  // Habilitar / Desabilitar o verificador ortográfico.
+  "enabled": true,
+  // Idioma de verificação ortográfica atual
+  "language": "en,pt,pt_BR", // Inclui inglês, português e português do Brasil
+  // Dicionários gerais
+  "dictionaries": [
+    "en-gb" // Dicionário para inglês britânico
+  ],
+  // Controla o número máximo de erros ortográficos por documento.
+  "maxNumberOfProblems": 10,
+  // Controla o número de sugestões exibidas.
+  "numSuggestions": 4,
+  // Habilitar / Desabilitar palavras compostas como 'errormessage'
+  "allowCompoundWords": true,
+  // Lista de palavras que sempre devem ser consideradas incorretas
+  // Isso é útil para palavras ofensivas e erros de digitação comuns.
+  // Por exemplo, "hte" deve ser "the"
+  "flagWords": [
+    "hte"
+  ],
+  // Especificar caminhos/arquivos a serem ignorados.
+  "ignorePaths": [
+    ".git" // Ignora o diretório .git
+  ],
+  // Palavras a serem ignoradas e não sugeridas.
+  "ignoreWords": [
+    "aarch64",
+    "dearmor"
+  ],
+  // Lista de palavras que sempre devem ser consideradas corretas
+  "words": [
+    "controlvm",
+    "createhd",
+    "createrawvmdk",
+    "createvm",
+    "gsub",
+    "modifyvm",
+    "ostype",
+    "showvminfo",
+    "startvm",
+    "unregistervm",
+    "usboot",
+    "versao",
+    "vmdk"
+  ],
+  // Tipos de Arquivos para Verificar
+  "enableFiletypes": [
+    "shellscript"
+  ]
+}

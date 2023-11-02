@@ -1,0 +1,110 @@
+# -----------------------------------------------------
+# Arquivos e diretórios gerais para ignorar
+# -----------------------------------------------------
+# Outros
+tmp_*
+
+# Imagens ISO
+ubuntu*
+xubuntu*
+Win*
+
+# Arquivos VBOX
+usboot.vdi
+usboot.vmdk
+
+# Arquivos de log
+*.log
+
+# Arquivos de backup
+*~
+*.bak
+
+# Arquivos de configuração específicos do ambiente
+#.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# -----------------------------------------------------
+# Arquivos gerados pelo sistema operacional
+# -----------------------------------------------------
+
+# Windows
+Thumbs.db               # Arquivos de miniaturas
+ehthumbs.db             # Arquivos de miniaturas alternativos
+
+# Linux
+*~                      # Arquivos temporários
+.cache/                 # Cache de diretórios
+*.swp                   # Arquivos de swap
+
+# macOS
+.DS_Store               # Arquivos de metadados
+.Trashes                # Lixeira do macOS
+.DS_Store?              # Ícones personalizados
+._*
+
+# -----------------------------------------------------
+# Arquivos de sistema gerados por outros sistemas operacionais
+# -----------------------------------------------------
+
+# OS/2
+.DS_Store?
+
+# BeOS
+.be_trash/
+
+# Amiga
+.trash/
+
+# -----------------------------------------------------
+# Arquivos específicos de IDEs
+# -----------------------------------------------------
+
+# Sublime Text
+*.sublime-project       # Arquivos de projeto
+*.sublime-workspace     # Espaços de trabalho
+*.stTheme.cache         # Cache de temas
+
+# Visual Studio
+# .vscode/              # Configurações do Visual Studio Code
+# .vs/                  # Configurações do Visual Studio Code
+*.suo                   # Arquivo de opções
+*.user                  # Arquivo de configuração de usuário
+*.sln.docstates         # Estado de documentos
+
+# Android Studio / IntelliJ IDEA
+.idea/                  # Configurações do Android Studio / IntelliJ IDEA
+*.iml                   # Arquivos de módulo
+*.ipr                   # Arquivos de projeto
+*.iws                   # Arquivos de espaço de trabalho
+
+# Eclipse
+.classpath              # Arquivo de configuração de caminho de classe
+.project                # Arquivo de projeto
+.settings/              # Configurações do Eclipse
+
+# NetBeans
+nbproject/              # Configuração do projeto NetBeans
+
+# Xcode
+*.pbxuser               # Arquivo de usuário do projeto Xcode
+*.mode1v3               # Arquivo de configuração de construção
+*.mode2v3               # Arquivo de configuração de construção
+*.perspectivev3         # Arquivo de perspectiva
+*.xcworkspace           # Arquivo de espaço de trabalho Xcode
+*.xcuserstate           # Arquivo de estado de usuário
+
+# TextMate
+*.tmproj                # Arquivos de projeto do TextMate
+*.tmproject             # Arquivos de projeto do TextMate
+*.tm_properties         # Arquivos de configuração de propriedades do TextMate
+*.tmlanguage.cache      # Cache de idioma
+*.tmPreferences.cache   # Cache de preferências
+
+# Vim
+*~                      # Arquivos temporários
+*.swp                   # Arquivos de troca
+*.swo                   # Arquivos de troca

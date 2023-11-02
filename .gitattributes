@@ -1,0 +1,84 @@
+# -----------------------------------------------------
+# Comportamento de quebras de linha e tratamento de arquivos
+# -----------------------------------------------------
+
+# Define o comportamento de quebras de linha para diferentes extensões de arquivo.
+# Define o comportamento padrão, caso os usuários não tenham core.autocrlf configurado.
+* text=auto
+* text eol=lf
+
+# -----------------------------------------------------
+# Arquivos de texto que sempre devem ser normalizados
+# e convertidos para quebras de linha nativas na saída
+# -----------------------------------------------------
+
+*.php           text
+*.default       text
+*.ctp           text
+*.sql           text
+*.md            text
+*.po            text
+*.js            text
+*.css           text
+*.ini           text
+*.properties    text
+*.txt           text
+*.xml           text
+*.svg           text
+*.yml           text
+.htaccess       text
+
+# -----------------------------------------------------
+# Arquivos que sempre terão quebras de linha CRLF na saída
+# -----------------------------------------------------
+
+*.bat           eol=crlf
+
+# -----------------------------------------------------
+# Arquivos que sempre terão quebras de linha LF na saída
+# -----------------------------------------------------
+
+*.pem           eol=lf
+
+# -----------------------------------------------------
+# Fontes
+# -----------------------------------------------------
+
+*.ttf           binary
+*.eot           binary
+*.otf           binary
+*.woff          binary
+*.woff2         binary
+
+# -----------------------------------------------------
+# Arquivos de Documentação
+# -----------------------------------------------------
+
+*.docx          binary
+*.pptx          binary
+*.odt           binary
+
+# -----------------------------------------------------
+# Arquivos de Imagem e Vídeo
+# -----------------------------------------------------
+
+*.jpg           binary
+*.png           binary
+*.gif           binary
+*.mp4           binary
+*.ico           binary
+
+# -----------------------------------------------------
+# Arquivos Binários
+# -----------------------------------------------------
+
+*.mo            binary
+*.pdf           binary
+*.phar          binary
+*.gz            binary
+*.bz2           binary
+*.7z            binary
+*.zip           binary
+*.bak           binary
+*.bin           binary
+

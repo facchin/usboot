@@ -1,0 +1,13 @@
+{
+  // Consulte https://go.microsoft.com/fwlink/?LinkId=827846
+  // para a documentação sobre o formato extensions.json
+  "recommendations": [
+     // Extensões recomendadas para melhorar a experiência de desenvolvimento:
+    "ms-azuretools.vscode-docker", // Docker - Facilita a criação, gerenciamento e depuração de aplicações em contêiner.
+    "eamodio.gitlens", // GitLens - Fornece recursos avançados para trabalhar com o Git
+    "mikestead.dotenv", // DotENV - Suporte para arquivos .env
+    "editorconfig.editorconfig", // EditorConfig - Mantém a consistência de estilo de código
+    "streetsidesoftware.code-spell-checker", // Verificador de ortografia de código
+    "streetsidesoftware.code-spell-checker-portuguese-brazilian" // Dicionário de ortografia em português brasileiro
+  ]
+}
